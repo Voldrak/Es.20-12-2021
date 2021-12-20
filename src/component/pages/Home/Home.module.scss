@@ -1,0 +1,54 @@
+.home{
+    margin: 10px;
+
+    .welcome{
+        text-align: center;
+    }
+
+    .protucts{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        text-align: center;
+        margin: 20px 0px;
+    }
+
+    .form{
+        border: 1px solid black;
+        display: flex;
+        justify-content:space-around;
+        flex-direction: column;
+        width: 290px;
+        height: 580px;
+        font-size: 14px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+        padding: 0px 10px;
+
+       .description{
+           overflow-y: scroll;
+           height: 30%;
+           max-height: 250px;
+       }
+
+        .titPri{
+            display: flex;
+            flex-direction: row;
+            height: 10%;
+            gap: 20px;
+        }
+
+        
+        .img{
+            width: 40%;
+            
+        }
+
+        .rateCount{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 10%;
+            
+        }
+    }
+}
